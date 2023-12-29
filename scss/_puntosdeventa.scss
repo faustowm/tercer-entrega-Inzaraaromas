@@ -1,0 +1,20 @@
+/*puntos de venta */
+
+.class-venta {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #5D4157;
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+    background: linear-gradient(to right, #A8CABA, #5D4157);
+  
+    &:hover {
+      transform: scale(1.05);
+  
+      /* Escala de elemento al pasar el mouse */
+      transition: transform 0.3s ease;
+  
+      /* Añade un efecto de transicion */
+    }
+  }
+  

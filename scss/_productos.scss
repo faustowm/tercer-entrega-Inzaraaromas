@@ -1,0 +1,92 @@
+/* productos grid con bootstrap */
+
+.carousel-grid {
+    max-width: 1200px;
+  
+    /* Establece el ancho máximo del contenedor */
+    margin: 0 auto;
+  
+    /* Centra el contenedor en la página */
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+  }
+  
+  .carousel {
+    max-width: 100vh;
+  
+    /* Establece el ancho máximo del carrusel */
+    margin: 0 auto;
+  
+    /* Centra el carrusel en su contenedor */
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carousel-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .carousel-text {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .carousel-item {
+    position: relative;
+    text-align: center;
+  
+    img {
+      width: 100%;
+  
+      /* Establecer el ancho al 100% */
+      height: 100%;
+  
+      /* Establecer altura al 100% */
+      object-fit: cover;
+  
+      /*Mantenga la relación de aspecto y cubra el contenedor.*/
+    }
+  }
+  
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+  }
+  
+  .carousel-control-prev {
+    left: 10px;
+  }
+  
+  .carousel-control-next {
+    right: 10px;
+  }
+  

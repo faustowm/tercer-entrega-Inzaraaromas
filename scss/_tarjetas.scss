@@ -1,0 +1,66 @@
+/*tarjetas grid*/
+
+.tarjetas-sociales {
+    padding: 5rem;
+    background: #5D4157;
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+    background: linear-gradient(to right, #A8CABA, #5D4157);
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .tarjetas-tittle {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 3rem;
+  }
+  
+  .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .tarjeta1, .tarjeta2, .tarjeta3 {
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tarjeta1:hover, .tarjeta2:hover, .tarjeta3:hover {
+    transform: scale(1.05);
+    background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);
+    background: linear-gradient(to right, #636FA4, #E8CBC0);
+  }
+  
+  .tarjeta-tittle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  
+  .tarjeta-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tarjeta-item {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .tarjetas-link {
+    color: #007bff;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  

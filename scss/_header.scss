@@ -1,0 +1,70 @@
+/* Header */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #5D4157;
+  background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+  background: linear-gradient(to right, #A8CABA, #5D4157);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.class-logo {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.Logo {
+  width: 50vh;
+
+  /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+  margin-right: 10px;
+
+  /* Espaciado entre los logos */
+  animation: fadeIn 1s ease-in-out;
+}
+
+.menu-item {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin-right: 10px;
+
+  /* Espaciado entre los elementos de la lista */
+  font-weight: bold;
+
+  &:hover {
+    color: #ff6f61;
+
+    /*cambia de color*/
+  }
+}
