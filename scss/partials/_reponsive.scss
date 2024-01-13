@@ -43,9 +43,7 @@
 @media screen and (max-width: 480px) {
     .header {
         padding: 10px;
-        background: #5D4157;
-        background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
-        background: linear-gradient(to right, #A8CABA, #5D4157);
+        $gradiente: linear-gradient(to right, $gradiente-inicio, $gradiente-fin);
     }
 
     .Logo {
@@ -62,7 +60,7 @@
 
     .hero {
         padding: 20px;
-        background-color: beige
+        background-color: beige;
     }
 
     .tarjetas,

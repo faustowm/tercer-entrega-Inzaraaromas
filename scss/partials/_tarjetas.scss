@@ -11,7 +11,7 @@
   .tarjetas-tittle {
     text-align: center;
     font-size: 3rem;
-    color: black;
+    color: $color-black;
     margin-bottom: 3rem;
   }
   
@@ -42,7 +42,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 2rem;
-    color: black;
+    color: $color-black;
     font-family: 'Archivo Black', sans-serif;
   }
   
@@ -55,7 +55,7 @@
   .tarjeta-item {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: black;
+    color: $color-black;
   }
   
   .tarjetas-link {

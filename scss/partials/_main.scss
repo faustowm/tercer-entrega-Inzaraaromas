@@ -6,7 +6,7 @@
   background: #5D4157;
   background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
   background: linear-gradient(to right, #A8CABA, #5D4157);
-  color: black;
+  color: $color-black;
   gap: 2rem;
   font-family: 'Archivo Black', sans-serif;
 }
@@ -24,21 +24,21 @@
   border-radius: 3rem;
 
   /*borde*/
-  border-color: black;
+  border-color: $color-black;
 
   /*color del borde*/
   font-family: 'Archivo Black', sans-serif;
 }
 
 .hero-parrafo {
-  color: black;
+  color: $color-black;
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .hero-link {
-  color: black;
-  border: 3px solid black;
+  color: $color-black;
+  border: 3px solid $color-black;
   padding: 1rem;
   display: inline-block;
   border-radius: 3rem;
@@ -47,7 +47,7 @@
 .hero-text {
   margin-bottom: 2rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
+  color: $color-black;
 }
 
 .hero-img {
@@ -99,7 +99,7 @@
 .tarjetas-tittle {
   text-align: center;
   font-size: 3rem;
-  color: black;
+  color: $color-black;
   margin-bottom: 3rem;
 }
 
@@ -130,7 +130,7 @@
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: black;
+  color: $color-black;
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -143,7 +143,7 @@
 .tarjeta-item {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: black;
+  color: $color-black;
 }
 
 .tarjetas-link {
@@ -187,13 +187,13 @@
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: black;
+  color: $color-black;
   font-family: 'Archivo Black', sans-serif;
 }
 
 .carousel-text {
   font-size: 1rem;
-  color: black;
+  color: $color-black;
 }
 
 .carousel-item {

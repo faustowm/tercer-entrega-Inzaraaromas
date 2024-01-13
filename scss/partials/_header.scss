@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 @keyframes fadeIn {
@@ -55,7 +56,7 @@ ul {
 
 .menu-link {
   text-decoration: none;
-  color: black;
+  color: $color-black;
   padding: 10px;
   margin-right: 10px;
 
@@ -63,7 +64,7 @@ ul {
   font-weight: bold;
 
   &:hover {
-    color: #ff6f61;
+    color: $color-hover2;
 
     /*cambia de color*/
   }
