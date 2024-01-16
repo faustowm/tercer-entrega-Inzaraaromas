@@ -90,3 +90,39 @@
     right: 10px;
   }
   
+  @media (min-width: 768px) {
+    .carousel-item {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .carousel-grid {
+      padding: 5px;
+    }
+  
+    .carousel-container {
+      padding: 10px;
+    }
+  
+    .carousel-title {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-text {
+      font-size: 0.9rem;
+    }
+  
+    .carousel-item {
+      margin: 5px;
+    }
+  
+    .carousel-control-prev, .carousel-control-next {
+      width: 25px;
+      height: 25px;
+      font-size: 14px;
+    }
+  }
+  

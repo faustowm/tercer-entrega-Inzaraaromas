@@ -18,3 +18,33 @@
     }
   }
   
+  @media (min-width: 768px) {
+    .class-venta {
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background: #3498db;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    
+      &:hover {
+        transform: scale(1.05);
+      }
+     }
+  }
+
+  @media (max-width: 480px) {
+    .class-venta {
+      margin: 10px;
+      padding: 10px;
+      font-size: 14px;
+  
+      /* Ajusté el tamaño del texto */
+    }
+  }
+  
+
+
+    

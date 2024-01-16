@@ -68,6 +68,46 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .contaco-class {
+      padding: 20px;
+    }
+  
+    .contacto-tittle {
+      font-size: 24px;
+      font-weight: 100;
+    }
+  
+    input, textarea {
+      padding: 8px;
+    }
+  
+    .formulario {
+      padding: 8px 16px;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .contacto-class {
+      padding: 10px;
+    }
+  
+    .contacto-tittle {
+      font-size: 24px;
+      color: #555;
+    }
+  
+    input, textarea {
+      padding: 8px;
+    }
+  
+    .formulario {
+      padding: 16px;
+    }
+  }
+
+
 
   
   

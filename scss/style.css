@@ -164,6 +164,34 @@ ul {
   right: 10px;
 }
 
+@media (min-width: 768px) {
+  .carousel-item {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 480px) {
+  .carousel-grid {
+    padding: 5px;
+  }
+  .carousel-container {
+    padding: 10px;
+  }
+  .carousel-title {
+    font-size: 1.2rem;
+  }
+  .carousel-text {
+    font-size: 0.9rem;
+  }
+  .carousel-item {
+    margin: 5px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+}
 /*puntos de venta */
 .class-venta {
   margin: 20px;
@@ -179,6 +207,29 @@ ul {
   /* Añade un efecto de transicion */
 }
 
+@media (min-width: 768px) {
+  .class-venta {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  .class-venta:hover {
+    transform: scale(1.05);
+  }
+}
+@media (max-width: 480px) {
+  .class-venta {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    /* Ajusté el tamaño del texto */
+  }
+}
 /* quienes somos */
 .class-quienes {
   text-align: center;
@@ -192,6 +243,36 @@ h2 {
   margin: 20px 0px;
 }
 
+@media (max-width: 768px) {
+  .class-quienes {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #dcd3ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0;
+    color: #5348b5;
+  }
+}
+@media (max-width: 480px) {
+  .class-quienes {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .class-quienes:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
 /* contacto */
 .contaco-class {
   max-width: 700px;
@@ -256,6 +337,36 @@ textarea {
   /* Cambio de color al pasar el mouse sobre los botones */
 }
 
+@media (max-width: 768px) {
+  .contaco-class {
+    padding: 20px;
+  }
+  .contacto-tittle {
+    font-size: 24px;
+    font-weight: 100;
+  }
+  input, textarea {
+    padding: 8px;
+  }
+  .formulario {
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .contacto-class {
+    padding: 10px;
+  }
+  .contacto-tittle {
+    font-size: 24px;
+    color: #555;
+  }
+  input, textarea {
+    padding: 8px;
+  }
+  .formulario {
+    padding: 16px;
+  }
+}
 /* footer */
 .footer {
   display: flex;
