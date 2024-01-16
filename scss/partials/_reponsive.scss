@@ -3,7 +3,7 @@
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .Logo {
@@ -15,8 +15,8 @@
     }
 
     .menu-item ul {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 2px;
     }
 
     .hero {
@@ -42,8 +42,11 @@
 /* Media queries para teléfonos móviles */
 @media screen and (max-width: 480px) {
     .header {
+        
         padding: 10px;
-        $gradiente: linear-gradient(to right, $gradiente-inicio, $gradiente-fin);
+        background: #5D4157;
+        background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+        background: linear-gradient(to right, #A8CABA, #5D4157);
     }
 
     .Logo {
@@ -56,14 +59,24 @@
     .menu-item ul {
         gap: 5px;
         padding: 16px;
+        text-align: center;
     }
+    .menu-link {
+        padding: 5px;
+        margin-right: 1px;
+      
+      
+      }
 
     .hero {
         padding: 20px;
         background-color: beige;
     }
 
-    .tarjetas,
+    .tarjetas {
+        display: grid;
+        justify-content: center;
+      }
     .porque {
         display: flex;
         flex-direction: column;
@@ -72,7 +85,7 @@
         background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
         background: linear-gradient(to right, #A8CABA, #5D4157);
     }
-
+    
     .footer {
         display: grid;
         grid-template-columns: auto;

@@ -304,7 +304,7 @@ textarea {
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .Logo {
     width: 30%;
@@ -314,8 +314,8 @@ textarea {
     animation: fadeIn 1s ease-in-out;
   }
   .menu-item ul {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 2px;
   }
   .hero {
     flex-direction: column;
@@ -338,6 +338,8 @@ textarea {
 @media screen and (max-width: 480px) {
   .header {
     padding: 10px;
+    background: #5D4157;
+    background: linear-gradient(to right, #A8CABA, #5D4157);
   }
   .Logo {
     width: 30%;
@@ -349,12 +351,20 @@ textarea {
   .menu-item ul {
     gap: 5px;
     padding: 16px;
+    text-align: center;
+  }
+  .menu-link {
+    padding: 5px;
+    margin-right: 1px;
   }
   .hero {
     padding: 20px;
     background-color: beige;
   }
-  .tarjetas,
+  .tarjetas {
+    display: grid;
+    justify-content: center;
+  }
   .porque {
     display: flex;
     flex-direction: column;
