@@ -44,7 +44,6 @@ body {
 .class-logo {
   display: flex;
   margin-bottom: 10px;
-  padding: 10px;
 }
 
 .Logo {
@@ -416,6 +415,7 @@ textarea {
   .header {
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
   .Logo {
     width: 30%;
